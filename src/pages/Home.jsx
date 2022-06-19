@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className=''>
       <div className='grid grid-cols-2 gap-8 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2'>
-        <Link to='/about'>
+        <Link to='/books'>
           <div className='grid grid-col-2 gap-2'>
             <h2 className='flex justify-center'>Books</h2>
             <div className='flex justify-center'>
@@ -16,7 +16,7 @@ function Home() {
             </div>
           </div>
         </Link>
-        <Link to='/about'>
+        <Link to='/movies'>
           <div className='grid grid-col-2 gap-2'>
             <h2 className='flex justify-center'>Movies</h2>
             <div className='flex justify-center'>
@@ -24,7 +24,7 @@ function Home() {
             </div>
           </div>
         </Link>
-        <Link to ='/about'>
+        <Link to ='/characters'>
           <div className='grid grid-col-2 gap-2'>
             <h2 className='flex justify-center'>Characters</h2>
             <div className='flex justify-center'>
